@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/ibkr_timescale_loader.egg-info/PKG-INFO
+src/ibkr_timescale_loader.egg-info/SOURCES.txt
+src/ibkr_timescale_loader.egg-info/dependency_links.txt
+src/ibkr_timescale_loader.egg-info/requires.txt
+src/ibkr_timescale_loader.egg-info/top_level.txt
+src/ibts/__init__.py
+src/ibts/config.py
+src/ibts/db.py
+src/ibts/ib.py
+src/ibts/loader.py
+src/ibts/main.py

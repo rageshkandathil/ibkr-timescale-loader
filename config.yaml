@@ -14,8 +14,8 @@ db:
   host: "127.0.0.1"
   port: 5432
   database: "marketdata"
-  user: "postgres"
-  password: "CHANGE_ME"
+  user: "ib_app"
+  password: "Chartclue@2026"
 
 symbols:
   - symbol: "AAPL"

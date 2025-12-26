@@ -2,6 +2,9 @@
 name = "ibkr-timescale-loader"
 version = "0.1.0"
 requires-python = ">=3.10"
-
-[project.scripts]
-ibts = "ibts.main:main"
+dependencies = [
+  "psycopg[binary]>=3.2.0",
+  "PyYAML>=6.0.1",
+  "python-dateutil>=2.9.0",
+  "ib_insync>=0.9.86",
+]
