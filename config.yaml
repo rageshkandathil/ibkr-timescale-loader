@@ -4,7 +4,6 @@ app:
   what_to_show: "TRADES"
   use_rth: true
   backfill_chunk_days: 7
-  poll_sleep_seconds: 2
 
 ibkr:
   host: "127.0.0.1"

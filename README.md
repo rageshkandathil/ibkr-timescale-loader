@@ -1,8 +1,13 @@
 # IBKR → TimescaleDB Loader
 
-Python app that loads market data from Interactive Brokers (IBKR) and stores it in TimescaleDB.
+Python application that loads market data from Interactive Brokers
+and stores it in TimescaleDB.
 
-## Run (later)
-- Configure `config.yaml`
-- Start TWS/IB Gateway
-- Run the app
+## Features
+- Config-driven symbols
+- Backfill + live updates
+- No duplicate inserts
+- TimescaleDB optimized
+
+## Status
+🚧 Project skeleton created

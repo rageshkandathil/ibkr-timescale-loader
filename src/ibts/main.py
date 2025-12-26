@@ -1,5 +1,5 @@
 def main():
-    print("IBKR → TimescaleDB loader (skeleton). Next: add IBKR + DB logic.")
+    print("IBKR → TimescaleDB loader skeleton is ready.")
 
 if __name__ == "__main__":
     main()
