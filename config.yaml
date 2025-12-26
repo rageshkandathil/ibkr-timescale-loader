@@ -1,0 +1,26 @@
+app:
+  timezone: "Asia/Dubai"
+  timeframe: "1 min"
+  what_to_show: "TRADES"
+  use_rth: true
+  backfill_chunk_days: 7
+  poll_sleep_seconds: 2
+
+ibkr:
+  host: "127.0.0.1"
+  port: 7497
+  client_id: 7
+
+db:
+  host: "127.0.0.1"
+  port: 5432
+  database: "marketdata"
+  user: "postgres"
+  password: "CHANGE_ME"
+
+symbols:
+  - symbol: "AAPL"
+    exchange: "SMART"
+    currency: "USD"
+    secType: "STK"
+    start_time: "2025-01-01T00:00:00+04:00"
